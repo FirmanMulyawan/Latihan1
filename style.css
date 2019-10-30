@@ -1,0 +1,13 @@
+div {
+    width: 300px;
+    height: 200px;
+    margin: 30px auto;
+    border: 10px double red;
+    background-color: lightgreen;
+    /* padding-top: 30px; */
+    ;
+}
+
+.h1 {
+    text-align: center;
+}

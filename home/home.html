@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"> -->
+    <title>Home</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+
+<body>
+
+    <div class="header">
+        <h1>Home </h1>
+    </div>
+
+    <div style="overflow:auto">
+        <div class="menu">
+            <p id="p1">Kata Pertama</p>
+            <p id="p2">Kata Kedua</p>
+            <p id="p3">Kata Ketiga</p>
+        </div>
+
+        <div id="main">
+            <h2>Anda Berhasil Login</h2>
+            <p id="p4">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
+                ut
+                laoreet dolore magna aliquam erat volutpat.</p>
+        </div>
+
+        <!-- <div class="right">
+            <h2>About</h2>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+        </div> -->
+    </div>
+    <div style="background-color:#e5e5e5;text-align:center;padding:10px;margin-top:7px;"><a
+            href="./index.html">Kembali</a></div>
+
+    <!-- <style src="./script.js"></style> -->
+    <script>
+        let p1 = document.getElementById('p1');
+        p1.addEventListener("click", function () {
+            document.getElementById('p4').innerHTML = "Ini adalah Kalimat Kata Pertama";
+        });
+        let p2 = document.getElementById('p2');
+        p2.addEventListener("click", function () {
+            document.getElementById('p4').innerHTML = "Ini adalah Kalimat Kata Kedua";
+        });
+        let p3 = document.getElementById('p3');
+        p3.addEventListener("click", function () {
+            document.getElementById('p4').innerHTML = "Ini adalah Kalimat Kata Ketiga";
+        });
+    </script>
+</body>
+
+</html>

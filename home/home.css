@@ -1,0 +1,38 @@
+body {
+    font-family: serif;
+}
+
+
+.header {
+    background-color: lightblue;
+    text-align: center;
+    padding: 15px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.menu {
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+
+.menu p {
+    background-color: lightblue;
+    padding: 8px;
+    margin-top: 7px;
+    display: block;
+    width: 100%;
+    color: black;
+}
+
+#main {
+    background-color: lightgreen;
+    float: left;
+    width: 78.5%;
+    padding: 20px;
+    height: 150px;
+    margin: 10px;
+}
